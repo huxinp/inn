@@ -1,0 +1,15 @@
+.i-overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  &.visible {
+    display: block;
+    transition: all 0.3s ease-in-out;
+    z-index: 100;
+  }
+}

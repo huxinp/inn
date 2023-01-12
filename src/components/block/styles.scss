@@ -1,0 +1,18 @@
+.i-block {
+  &-title {
+    padding: 32px 16px 16px;
+    color: rgba(69, 90, 100, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &-content {
+    overflow: hidden;
+  }
+  &-round {
+    border-radius: 6px;
+  }
+  &-border {
+    border: 0.5px solid #ebedf0;
+  }
+}

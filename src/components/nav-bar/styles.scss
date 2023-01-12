@@ -1,0 +1,23 @@
+.i-nav-bar {
+  position: fixed;
+  top: 0;
+  // padding-top: constant(safe-area-inset-top) !important;
+  // padding-top: env(safe-area-inset-top) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  z-index: 1;
+  .left {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    .back {
+      margin: 0 5px;
+      padding: 5px;
+    }
+  }
+  .title {
+  }
+}

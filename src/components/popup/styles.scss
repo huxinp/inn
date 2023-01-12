@@ -1,0 +1,26 @@
+.i-popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 80vh;
+  background-color: #fff;
+  border-radius: 4px;
+  z-index: -1;
+  &-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  &.visible {
+    display: block;
+    transition: all 0.3s ease-in-out;
+    z-index: 101;
+  }
+}
